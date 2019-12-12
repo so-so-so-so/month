@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*　全体*/
+.registBox{
+    width: 600px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+/* 見出し */
+.registBox_tai{
+    font-size: 30px;
+    padding-top: 30px;
+}
+/* エラー */
+.registBox_err{
+    color: #f00;
+}
+/*入力box*/
+.regist_form_office,
+.regist_form_mail,
+.regist_form_paswd,
+.regist_form_paswdCn,
+.regist_form_finance,
+.regist_form_Branch,
+.regist_form_deposit,
+.regist_form_accountNum,
+.regist_form_accountName{
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 150px;
+}
+.regist_form_officeIN,
+.regist_form_mailIN,
+.regist_form_paswdIN,
+.regist_form_paswdCnIn,
+.regist_form_financeCs,
+.regist_form_BranchIN,
+.regist_form_depositIN,
+.regist_form_accountNumIN,
+.regist_form_accountNameIN{
+    width: 300px;
+    height: 30px;
+}
+/* 画像 */
+.regist_form_img{
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 150px;
+}
+.regist_form_imgIN{
+    width: 250px;
+    height: 30px;
+}
+.regist_form_img_button{
+    height: 35px;
+}
+/* 入会ボタン */
+.regist_form_submit{
+    margin-top: 30px;
+    width:250px;
+    height:50px;
+    color: #fff;
+    background-color: #20aee5;
+    border-color: #51b0d5;
+}
+/* 規約 */
+.regist_form_Terms{
+  text-decoration: none;
+  color: #0892c7;
+}
+.regist_form_Terms:hover{
+    color: #9cd3e9;
+  }
+

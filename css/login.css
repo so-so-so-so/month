@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* 全体 */
+.loginBox{
+  justify-content: center;
+  display: flex;
+}
+/* 見出し */
+.partner{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  /* font-family: "Noto Sans JP"; */
+}
+/* 説明エリア */
+.description{
+  height: 450px;
+  width: 400px;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+.description_tai{
+  font-size: 30px;
+  font-family: "Noto Sans JP";
+}
+.description_column{
+  font-family: "Noto Sans JP";
+}
+/* LoginFormエリア */
+/* loginbox */
+.loginForm{
+  height: 450px;
+  width: 400px;
+  margin-left: 20px;
+  justify-content: center;
+  background-color: #fafafa;
+  border: solid 1px #d9d9d9;
+  border-radius: 15px;
+}
+/* エラー */
+.err{
+  margin-top: 30px;
+  margin-left: 70px;
+  color: #f00;
+  margin-bottom: 30px;
+}
+/* メール */
+.mail{
+  margin-left: 70px;
+  margin-bottom: 0px;
+}
+.mailIn{
+  margin-left: 70px;
+  margin-top: 0;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 25px;
+  border: solid 1px #d9d9d9;
+}
+/* パスワード */
+.passArea{
+  display: flex;
+}
+.passwd{
+  margin-left: 70px;
+  margin-bottom: 0px;
+}
+.passwdIn{
+  margin-left: 70px;
+  margin-top: 0;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+/* パスワード忘れ */
+.forgetPasswd{
+  margin-left: 170px;
+  text-decoration: none;
+  color: #0892c7;
+}
+.forgetPasswd:hover{
+  color: #9cd3e9;
+}
+/* ログインボタン */
+.loginButton{
+  margin-left: 70px;
+  margin-bottom: 2px;
+  width: 250px;
+  height: 40px;
+  color: #fff;
+  background-color: #20aee5;
+  border-color: #51b0d5;
+  border-radius: 5px;
+}
+/* 入会画面へボタン */
+.registButton{
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 250px;
+  height: 40px;
+  color: #fff;
+  background-color: #20aee5;
+  border-color: #51b0d5;
+  border-radius: 5px;
+}

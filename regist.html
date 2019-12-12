@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>会員登録</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/regist.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <label>LEGO</label>
+      </div>
+      <div class="element">
+        <!-- <p>要素</p> -->
+      </div>
+    </header>
+
+    <main class="registBox">
+        <p class="registBox_tai">新規入会</p>
+        <p class="registBox_err">エラー文表示</p><!-- エラー時 -->
+      <!-- 登録フォーム -->
+      <form class="regist_form" action="#" method="post">
+
+        <p class="regist_form_office">会社名・店名</p>
+        <input class="regist_form_officeIN" placeholder="例:株式会社month" type="text" name="" value=""><br>
+
+        <p class="regist_form_img">画像</p>
+        <input class="regist_form_imgIN" placeholder="画像を選択してください" type="text" name="" value="">
+        <input class="regist_form_img_button" type="button" name="" value="参照"><br>
+
+        <p class="regist_form_mail">メールアドレス</p>
+        <input class="regist_form_mailIN" placeholder="例:month1234@gmail.com" type="text" name="" value=""><br>
+
+        <p class="regist_form_paswd">パスワード</p>
+        <input class="regist_form_paswdIN" placeholder="6文字以上半角英数" type="text" name="" value=""><br>
+
+        <p class="regist_form_paswdCn">パスワード確認</p>
+        <input class="regist_form_paswdCnIn" placeholder="もう一度入力してください" type="text" name="" value=""><br>
+
+        <p class="regist_form_finance">金融機関名</p>
+        <select class="regist_form_financeCs" class="" name="">
+          <option value="">選択してください</option>
+          <option value="">三菱UFJ銀行</option>
+          <option value="">三井住友銀行</option>
+          <option value="">りそな銀行</option>
+          <option value="">みずほ銀行</option>
+          <option value="">埼玉りそな銀行</option>
+        </select><br>
+
+        <p class="regist_form_Branch">支店名</p>
+        <input class="regist_form_BranchIN" placeholder="例:東京中央支店" type="text" name="" value=""><br>
+
+        <p class="regist_form_deposit">預金種目</p>
+        <select class="regist_form_depositIN" name="">
+          <option value="">選択してください</option>
+          <option value="">普通預金</option>
+          <option value="">当座預金</option>
+          <option value="">定期預金</option>
+        </select><br>
+
+        <p class="regist_form_accountNum">口座番号</p>
+        <input class="regist_form_accountNumIN" placeholder="例:半角英数" type="text" name="" value=""><br>
+
+        <p class="regist_form_accountName">口座名義</p>
+        <input class="regist_form_accountNameIN" placeholder="全角カナで入力してくだい" type="text" name="" value=""><br>
+
+        <p><a href="#" class="regist_form_Terms">monthパートナご利用規約</a></p>
+        <input type="radio" class="regist_form_Terms_agree" name="agree" value="">同意します
+        <input type="radio" class="regist_form_Terms_noneagree" name="agree" value="">同意しません<br>
+
+        <input class="regist_form_submit" type="submit" name="" value="入会します">
+      </form>
+    </main>
+
+  </body>
+</html>

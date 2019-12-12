@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* 全体 */
+header{
+  width: 100vw;
+  height: 70px;
+  /* border-bottom: solid 1px #000; */
+  background-color: #20aee5;
+  display: flex;
+}
+/* ロゴエリア */
+.logo{
+  width: 140px;
+  /* border-right:solid 1px #000; */
+  height: 70px;
+}
+.logo label{
+  font-size: 45px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+/* 要素エリア */
+.element {
+  margin-left: 39%;
+}
+
